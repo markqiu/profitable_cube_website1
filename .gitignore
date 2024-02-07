@@ -41,3 +41,5 @@ next-env.d.ts
 
 public/_map_indexes.json
 public/og
+node_modules
+.env
