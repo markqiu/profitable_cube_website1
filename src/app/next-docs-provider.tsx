@@ -56,7 +56,7 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
               children: "博客",
             },
             {
-              href: "https://tz.yeecord.com",
+              href: "https://tz.jinniuai.com",
               children: "注册/登录",
               external: true,
             },
