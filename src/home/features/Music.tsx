@@ -63,10 +63,10 @@ export function Music() {
 function Content() {
   return (
     <div className="flex max-w-[750px] flex-col gap-3 sm:p-5 lg:max-w-none">
-      <h2 className="mb-2 text-3xl font-bold sm:text-4xl">輕鬆播放音樂</h2>
+      <h2 className="mb-2 text-3xl font-bold sm:text-4xl">轻松发布投资助手</h2>
       <p className="text-lg text-muted-foreground">
-        讓你可以和朋友一起收聽 Spotify 和 SoundCloud
-        上的音樂，並且可以自訂播放清單，讓分享好音樂變簡單
+        将您训练成功的投资助手发不到模拟组合中
+        可以更好的让他给您提供个性化服务
       </p>
       <div className="mt-3 flex flex-row gap-2.5">
         <LinkButton
@@ -87,10 +87,10 @@ function Playlist() {
   return (
     <div className="-mt-[60px] ml-[150px] flex flex-col gap-5">
       <Song img={FightSong} duration="4:18">
-        Eve - Fight Song
+        投资能力 - DCF绝对估值
       </Song>
       <Song img={KickBack} duration="4:18">
-        米津玄師 - Kick Back
+        投资能力 - 选出成熟好公司
       </Song>
     </div>
   );

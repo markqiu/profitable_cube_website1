@@ -1,11 +1,11 @@
 {
-  "name": "yeecord-docs",
-  "version": "1.0.0",
+  "name": "website",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && next-sitemap --config next-sitemap.config.js",
-    "start": "next start -H 0.0.0.0",
+    "start": "npx serve@latest out",
     "lint": "next lint"
   },
   "pnpm": {

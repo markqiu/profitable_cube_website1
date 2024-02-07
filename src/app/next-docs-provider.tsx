@@ -14,13 +14,13 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
       value={{
         onChange: () => {},
         text: {
-          toc: "目錄",
-          light: "淺色主題",
-          dark: "黑暗主題",
-          system: "系統默認",
-          search: "搜索文檔",
-          lastUpdate: "最後更新於",
-          searchNoResult: "沒有結果",
+          toc: "目录",
+          light: "浅色主题",
+          dark: "黑暗主题",
+          system: "系统默认",
+          search: "搜索",
+          lastUpdate: "最后更新",
+          searchNoResult: "没有结果",
         },
       }}
     >
@@ -35,12 +35,12 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
                   fill="currentColor"
                 />
               </svg>
-              <span className="ml-2 text-lg font-bold">Yeecord</span>
+              <span className="ml-2 text-lg font-bold">盈利模方</span>
             </>
           }
           links={[
             {
-              href: "https://github.com/yeecord",
+              href: "https://www.jinniuai.com",
               label: "Github",
               icon: <GithubIcon className="h-5 w-5" />,
               external: true,
@@ -49,15 +49,15 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
           items={[
             {
               href: "/docs",
-              children: "使用教學",
+              children: "帮助中心",
             },
             {
               href: "/blog",
-              children: "部落格",
+              children: "博客",
             },
             {
-              href: "https://app.yeecord.com",
-              children: "網頁面板",
+              href: "https://tz.yeecord.com",
+              children: "注册/登录",
               external: true,
             },
           ]}

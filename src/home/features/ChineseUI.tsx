@@ -47,9 +47,9 @@ export function ChineseUI() {
           }}
           className="relative z-[2]"
         >
-          <h2 className="mb-2 text-2xl font-bold sm:text-3xl">全中文化界面</h2>
+          <h2 className="mb-2 text-2xl font-bold sm:text-3xl">快速实现任意的投资想法</h2>
           <p className="text-lg text-muted-foreground sm:text-xl">
-            我們提供了全中文化的界面，讓英文不再成為優質機器人的隔閡
+            我們提供了贴心的个性化服务，只需动动手指输入您的想法，就能快速实现。
           </p>
           <Skeleton />
           <div
@@ -57,9 +57,9 @@ export function ChineseUI() {
               "relative -ml-[1rem] -mt-[14rem] w-fit sm:-mt-[15rem] xl:-mt-[25rem] xl:ml-auto xl:mr-[14%]",
             )}
           >
-            <Feature icon={<ShieldCheckIcon />}>豐富的社群管理功能</Feature>
-            <Feature icon={<AlignCenterIcon />}>通俗易懂的文檔</Feature>
-            <Feature icon={<MousePointerIcon />}>無需繁雜的操作</Feature>
+            <Feature icon={<ShieldCheckIcon />}>快速专业的服务</Feature>
+            <Feature icon={<AlignCenterIcon />}>通俗易懂的文档</Feature>
+            <Feature icon={<MousePointerIcon />}>无需繁杂的操作</Feature>
           </div>
         </Step>
         <Gradient
@@ -153,7 +153,7 @@ function Skeleton() {
         }}
         transition={{ duration: 1 }}
       >
-        <p className="text-lg font-bold sm:text-xl">指令區</p>
+        <p className="text-lg font-bold sm:text-xl">大模型 + 能力库 + 助手仓 + 专业策略开发</p>
         <div className={`${foreground} h-7`} />
         <div className={`${foreground} h-6 w-[70%]`} />
       </motion.div>

@@ -24,16 +24,16 @@ export function Hero() {
           "text-5xl font-bold min-[360px]:text-6xl sm:text-7xl xl:text-8xl"
         }
       >
-        萬中選一的
+        投资要
         <span
           className={clsx(
             "mx-1 bg-gradient-to-r from-blue-400 via-green-300 to-blue-400 bg-clip-text text-transparent max-lg:my-2 max-lg:block",
             styles["animated-gradient"],
           )}
         >
-          Discord
+          有能力
         </span>
-        機器人
+        去拼！
       </h1>
       <p
         className={clsx(
@@ -41,12 +41,12 @@ export function Hero() {
           "md:max-w-[650px] lg:text-2xl",
         )}
       >
-        YEE式機器龍功能眾多且強大，讓你簡單創造出優秀的中文 Discord 社群
+        - 做最专业的智能投资工具，让盈利不再光凭运气！-
       </p>
       <Buttons />
       <div className="mt=[3rem] flex w-full flex-col gap-5 md:mt-[4rem]">
         <p className="mb-3 text-lg font-semibold text-muted-foreground md:mb-4">
-          各大伺服器一致好評
+          各大媒体一致好评
         </p>
         <div
           className={clsx(
@@ -70,7 +70,7 @@ function Buttons() {
   return (
     <div className="grid w-full max-w-[500px] grid-cols-1 gap-3 sm:w-fit sm:grid-cols-2">
       <LinkButton href="/docs" className={clsx(bn, styles["rainbow-border"])}>
-        使用教學
+        快速入门
       </LinkButton>
       <LinkButton
         href="/invite"
@@ -82,7 +82,7 @@ function Buttons() {
         )}
       >
         <ExternalLinkIcon />
-        邀請機器人
+        注册/登录
       </LinkButton>
     </div>
   );
@@ -97,18 +97,18 @@ function Servers({ secondary }: { secondary?: boolean }) {
         secondary && "md:hidden",
       )}
     >
-      <Server img="/home/customers/apex-tw.png" name="APEX Taiwan" />
-      <Server img="/home/customers/valorant-tw.png" name="VALORANT Taiwan" />
-      <Server img="/home/customers/avery.png" name="Avery" transparent />
-      <Server img="/home/customers/zeitfrei.png" name="ZeitFrei" transparent />
+      <Server img="/home/customers/apex-tw.png" name="新浪财经" />
+      <Server img="/home/customers/valorant-tw.png" name="雪球" />
+      <Server img="/home/customers/avery.png" name="今日头条" transparent />
+      <Server img="/home/customers/zeitfrei.png" name="中信证券" transparent />
       <Server
         img="/home/customers/daptor.png"
-        name="有感筆電軍團 - Daptor Army"
+        name="抖音"
       />
-      <Server img="/home/customers/empressival.png" name="Empressival" />
+      <Server img="/home/customers/empressival.png" name="小白白看世界" />
       <Server
         img="/home/customers/daidai.png"
-        name="老查呆呆の迷因調查局總部"
+        name="华夏基金"
       />
     </div>
   );

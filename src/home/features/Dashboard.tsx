@@ -22,11 +22,11 @@ export function Dashboard() {
             "from-transparent via-purple-400 to-purple-600 dark:to-purple-100",
           )}
         />
-        <h2 className="text-3xl font-bold sm:text-5xl">簡易的控制面板</h2>
+        <h2 className="text-3xl font-bold sm:text-5xl">简单易用的助手创建功能</h2>
         <p className="text-lg text-muted-foreground sm:text-xl">
-          通過美觀、簡易的方式來自定義
+          通过美丽、简单的方式来定义
           <br className="sm:hidden" />
-          你的機器人
+          你的投资助手
         </p>
       </div>
       <div className="mt-[2rem] grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -50,15 +50,15 @@ function Settings() {
           <SettingsIcon />
         </div>
         <div>
-          <p className="text-lg font-bold sm:text-xl">設置</p>
-          <p className="text-muted-foreground">下拉選單身分組</p>
+          <p className="text-lg font-bold sm:text-xl">设置</p>
+          <p className="text-muted-foreground">助手是可配置的投资机器人</p>
         </div>
       </div>
       <Link
         href="/docs/commands/role"
         className="mt-auto rounded-xl bg-gradient-to-b from-purple-400 to-purple-600 px-6 py-3 text-center text-sm font-medium text-white"
       >
-        + 添加身分組
+        + 添加新能力
       </Link>
     </motion.div>
   );
@@ -76,8 +76,8 @@ function Chart() {
           <BarChartIcon />
         </div>
         <div>
-          <p className="text-lg font-bold sm:text-xl">你的伺服器</p>
-          <p className="text-muted-foreground">數據分析</p>
+          <p className="text-lg font-bold sm:text-xl">您的投资助手</p>
+          <p className="text-muted-foreground">数据分析</p>
         </div>
       </div>
       <Image src={ChartSvg} alt="chart" className="mt-auto rounded-3xl" />
@@ -97,8 +97,8 @@ function Music() {
           <MusicIcon />
         </div>
         <div>
-          <p className="text-lg font-bold sm:text-xl">音樂系統</p>
-          <p className="text-muted-foreground">下一首歌</p>
+          <p className="text-lg font-bold sm:text-xl">组合</p>
+          <p className="text-muted-foreground">实盘跟踪组合</p>
         </div>
       </div>
       <div className="mt-auto flex flex-row items-center gap-2.5 pt-2">

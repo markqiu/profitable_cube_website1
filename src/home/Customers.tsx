@@ -43,17 +43,17 @@ export function Customers() {
             "mx-auto mb-8 w-fit rounded-md bg-gradient-to-br from-orange-400 to-orange-500 px-6 py-2 text-xl font-semibold text-white sm:text-3xl",
           )}
         >
-          倍受信賴
+          备受信赖
         </p>
         <h2 className="text-5xl font-bold">
-          受超過
+          受超过
           <span className="mx-2 block bg-gradient-to-b from-pink-600 to-orange-400 bg-clip-text text-transparent max-md:text-7xl md:inline">
             <ServerCount count={count} />
           </span>
-          個伺服器使用
+          个用户使用
         </h2>
         <p className="text-lg text-muted-foreground sm:text-xl">
-          受到無數大型社群的廣泛信任
+          受到无数专业投资者的广泛信任
         </p>
         <div className="flex flex-row gap-2.5">
           <LinkButton
@@ -62,7 +62,7 @@ export function Customers() {
               "rounded-full bg-secondary px-6 py-3 text-lg font-medium text-secondary-foreground shadow-lg transition-all hover:bg-accent hover:text-accent-foreground",
             )}
           >
-            邀請機器人
+            快速注册
           </LinkButton>
         </div>
         <motion.div

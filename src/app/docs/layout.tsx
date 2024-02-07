@@ -30,7 +30,7 @@ export default function RootDocsLayout({ children }: { children: ReactNode }) {
               href="/"
               className="mb-4 inline-flex flex-row gap-2 px-2 text-sm text-muted-foreground transition-colors hover:text-primary"
             >
-              <Undo2Icon className="h-5 w-5" /> 返回主頁
+              <Undo2Icon className="h-5 w-5" /> 返回首页
             </Link>
             <div className="mb-4 flex flex-col lg:hidden">
               <Link
@@ -42,11 +42,11 @@ export default function RootDocsLayout({ children }: { children: ReactNode }) {
                 )}
               >
                 <BookIcon className="h-5 w-5" />
-                使用教學
+                帮助中心
               </Link>
               <Link href="/blog" className={cn(itemVariants())}>
                 <LayoutListIcon className="h-5 w-5" />
-                部落格
+                博客
               </Link>
             </div>
           </>

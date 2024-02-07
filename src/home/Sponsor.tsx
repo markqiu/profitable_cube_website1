@@ -5,28 +5,28 @@ export default function Sponsor() {
   return (
     <div className="mt-20 flex flex-col items-center gap-3 bg-gradient-to-b from-secondary/50 px-4 py-40 text-center">
       <p className="text-lg tracking-widest text-purple-400">
-        喜歡YEE式機器龍?
+        喜欢盈利模方?
       </p>
-      <h2 className="text-5xl font-bold">支持我們</h2>
+      <h2 className="text-5xl font-bold">支持我们</h2>
       <p className="text-lg text-muted-foreground sm:text-xl">
-        照顧機器龍是一項艱鉅的工作
+        开发和维护盈利模方是一项艰苦的工作
         <span className="max-sm:hidden">, </span>
         <br className="sm:hidden" />
-        以實際行動支持我們吧
+        以实际行动支持我们吧
       </p>
 
       <div className="mt-5 grid w-full max-w-[60rem] grid-cols-1 gap-4 sm:grid-cols-2">
         <Card
-          title="照顧機器龍"
-          text="在 Github 上貢獻"
+          title="贡献投资能力"
+          text="在 Github 上贡献"
           icon={<GithubIcon />}
           href="https://github.com/yeecord/website"
         >
-          貢獻
+          贡献
         </Card>
         <Card
-          title="給予反饋"
-          text="在 Discord 回饋資訊給我們"
+          title="给予反馈"
+          text="在 Discord 上给予反馈"
           icon={<MessageSquarePlusIcon />}
           href="https://discord.gg/yeecord"
         >

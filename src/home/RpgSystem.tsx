@@ -19,13 +19,13 @@ export function RpgSystem() {
             "mx-auto w-fit rounded-md bg-gradient-to-br from-green-400 to-green-600 px-6 py-2 text-xl font-semibold text-white sm:text-3xl",
           )}
         >
-          冒險模式
+          训练场
         </p>
         <h2 className="text-5xl font-bold sm:text-5xl lg:text-6xl">
-          開創性的<span className="whitespace-nowrap">角色扮演系統</span>
+          开创性的<span className="whitespace-nowrap">投资助手训练</span>
         </h2>
         <h3 className="mx-auto max-w-2xl text-xl text-muted-foreground">
-          進入這個奇幻世界，開始你的冒險吧！
+          能力都是练出来的，越 PK 越靠谱，赶快来PK一下你的投资助手吧！
         </h3>
       </div>
       <Background />
@@ -52,40 +52,25 @@ function Jobs() {
   return (
     <div className="mt-10 grid grid-cols-1 gap-3 text-start md:grid-cols-2 lg:grid-cols-3">
       <Job
-        name="農夫"
-        description="和漁夫是差不多辛勤的職業，不過在這個世界，農夫的收益比漁夫還要高"
+        name="ROE-PB 投资策略"
+        description="短线每周调仓，每次买入估值最低的小市值股票"
       />
       <Job
-        name="漁夫"
-        description="是個需要勞力的職業，你必須要努力勤奮的抓魚，才會獲得收益"
+        name="价值投资一号"
+        description="稳健投资，关注企业内在价值，在有安全边际时买入"
       />
       <Job
-        name="藥劑師"
-        description="是受一般人敬仰的職業，透過進行科學實驗生產藥水，能夠獲得很高的收益"
+        name="买狗股"
+        description="买入高股息的股票，每年调仓"
       />
       <Job
-        name="廚師"
-        description="跟農夫以及漁夫購買食材，再透過烘烤食物並轉賣來獲得收益"
+        name="涨停敢死队"
+        description="追涨停，追求绝对高收益"
         optional
       />
       <Job
-        name="礦工"
-        description="在深不見底的洞窟裡挖礦，雖然可能沒有很好的收穫，不過有機會也可以挖到鑽石等好東西"
-      />
-      <Job
-        name="牧農"
-        description="飼養各類的禽類豬雞牛等還獲得肉類"
-        optional
-      />
-      <Job
-        name="鐵匠"
-        description="通常會和礦工合作來熔煉礦物並販賣出很高的價錢"
-        optional
-      />
-      <Job
-        name="伐木工"
-        description="在森林中砍伐木頭，是木頭的來源"
-        optional
+        name="人工智能高科技狂人"
+        description="投资靠人工智能挖矿"
       />
     </div>
   );

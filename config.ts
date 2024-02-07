@@ -7,36 +7,36 @@ export const urlBase = new URL(
     : "http://localhost:3000",
 );
 
-export const domain = "https://yeecord.com";
+export const domain = "https://jinniuai.com";
 
 export const footer: FooterCategory[] = [
   {
-    title: "連結",
+    title: "盈利模方",
     items: [
       {
-        label: "部落格",
+        label: "博客",
         href: "/blog/",
       },
       {
-        label: "隱私權聲明",
+        label: "隐私权声明",
         href: "/privacy/",
       },
       {
-        label: "使用條款",
+        label: "使用条款",
         href: "/terms/",
       },
     ],
   },
   {
-    title: "支持我們",
+    title: "支持我们",
     items: [
       {
-        label: "GitHub",
+        label: "微博",
         href: "https://github.com/yeecord",
         newWindow: true,
       },
       {
-        label: "Patreon",
+        label: "知乎",
         href: "https://www.patreon.com/yeecord",
         newWindow: true,
       },
@@ -46,7 +46,7 @@ export const footer: FooterCategory[] = [
         newWindow: true,
       },
       {
-        label: "top.gg",
+        label: "微信",
         href: "https://top.gg/bot/584213384409382953",
         newWindow: true,
       },
@@ -56,22 +56,22 @@ export const footer: FooterCategory[] = [
     title: "其他",
     items: [
       {
-        label: "控制面板",
+        label: "想法实现",
         href: "https://app.yeecord.com",
         newWindow: true,
       },
       {
-        label: "邀請機器人",
+        label: "投资能力库",
         href: "https://app.yeecord.com/invite",
         newWindow: true,
       },
       {
-        label: "Discord",
+        label: "投资助手库",
         href: "https://discord.gg/yeecord",
         newWindow: true,
       },
       {
-        label: "服務狀態",
+        label: "服务状态",
         href: "https://status.yeecord.com/",
         newWindow: true,
       },

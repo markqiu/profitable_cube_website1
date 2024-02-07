@@ -56,11 +56,11 @@ export function Games() {
         >
           <div>
             <h2 className="mb-2 text-2xl font-bold sm:text-3xl">
-              不只是聊天平台
+              不只是想想而已，知行合一才是重点
             </h2>
             <p className="text-lg text-muted-foreground sm:text-xl">
-              透過機器人各種有趣的系統，讓你的 Discord
-              更加有趣，同時朋友也可以和你一起玩
+              透过各项系统功能，让您的投资想法可以逐渐的到完善，让您的投资能力得到提升
+              更加智能，同時也能依赖强大的共享投资能力库，让您站在巨人的肩膀上
             </p>
             <LinkButton
               className="mt-6 rounded-full bg-gradient-to-br from-orange-400 to-pink-500 px-6 py-3 text-lg font-bold text-white"
@@ -74,12 +74,12 @@ export function Games() {
               whileInView="show"
               initial="hidden"
             >
-              <Item icon={<BarChartIcon className="h-8 w-8" />}>投票系統</Item>
+              <Item icon={<BarChartIcon className="h-8 w-8" />}>创建助手</Item>
               <Item icon={<PencilLineIcon className="h-8 w-8" />}>
-                1A2B遊戲
+                投资能力 A
               </Item>
               <Item icon={<SwordIcon className="h-8 w-8" />} active>
-                冒險系統
+                帮我关注某大牛的最新动态
               </Item>
             </motion.div>
           </div>
