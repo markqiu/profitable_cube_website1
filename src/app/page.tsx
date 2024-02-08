@@ -7,6 +7,7 @@ import Sponsor from "@/home/Sponsor";
 import type { Metadata } from "next";
 import { domain } from "@config";
 
+
 export const metadata: Metadata = {
   alternates: {
     canonical: domain,
