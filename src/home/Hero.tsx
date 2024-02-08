@@ -33,7 +33,7 @@ export function Hero() {
         >
           爱拼
         </span>
-        才会盈
+        才会.盈
       </h1>
       <p
         className={clsx(

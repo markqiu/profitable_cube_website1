@@ -16,7 +16,7 @@ export function Features() {
           功能强大
         </p>
         <h2 className="text-5xl font-bold sm:text-5xl lg:text-6xl">
-          您需要的功能都&#8288;在&#8288;这&#8288;里
+          您需要的功能&#8288;都&#8288;在&#8288;这
         </h2>
         <h3 className="mx-auto max-w-2xl text-xl text-muted-foreground">
           从投资想法实现、投资能力库到投资助手训练场和组合功能
