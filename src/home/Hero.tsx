@@ -31,9 +31,9 @@ export function Hero() {
             styles["animated-gradient"],
           )}
         >
-         才是你的
+         才是
         </span>
-        财富来源
+        你的财富来源
       </h1>
       <p
         className={clsx(
@@ -41,7 +41,7 @@ export function Hero() {
           "md:max-w-[650px] lg:text-2xl",
         )}
       >
-        快来建立自己的数字投资能力库，让您的财富滚滚而来吧！ 
+        快来盈利模方建立自己的数字投资能力库，让财富滚滚而来！ 
       </p>
       <Buttons />
       <div className="mt=[3rem] flex w-full flex-col gap-5 md:mt-[4rem]">
@@ -69,11 +69,12 @@ function Buttons() {
 
   return (
     <div className="grid w-full max-w-[500px] grid-cols-1 gap-3 sm:w-fit sm:grid-cols-2">
-      <LinkButton href="/docs" className={clsx(bn, styles["rainbow-border"])}>
-        快速入门
+      <LinkButton href="https://tz.jinniuai.com" className={clsx(bn, styles["rainbow-border"])}>
+      <ExternalLinkIcon />
+        快速开始
       </LinkButton>
       <LinkButton
-        href="/invite"
+        href="/docs"
         target="_blank"
         className={cn(
           "inline-flex items-center justify-center gap-2.5 bg-black text-white",
@@ -81,8 +82,7 @@ function Buttons() {
           bn,
         )}
       >
-        <ExternalLinkIcon />
-        注册/登录
+        帮助中心
       </LinkButton>
     </div>
   );
