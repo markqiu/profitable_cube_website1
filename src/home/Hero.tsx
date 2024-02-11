@@ -41,7 +41,7 @@ export function Hero() {
           "md:max-w-[650px] lg:text-2xl",
         )}
       >
-        快来建起自己的数字投资能力库，尽快实现财源滚滚吧！ 
+        快来建立自己的数字投资能力库，让您的财富滚滚而来吧！ 
       </p>
       <Buttons />
       <div className="mt=[3rem] flex w-full flex-col gap-5 md:mt-[4rem]">
