@@ -45,7 +45,7 @@ function Info() {
         <p className="text-xl font-bold">Yeecord</p>
       </div>
       <p className="mt-2 text-xs text-muted-foreground">
-        YEE式機器龍 © 2019 ~ {new Date(Date.now()).getFullYear()}
+        盈利模方 © 2024 ~ {new Date(Date.now()).getFullYear()}
       </p>
     </div>
   );

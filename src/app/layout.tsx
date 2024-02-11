@@ -21,18 +21,18 @@ export const metadata: Metadata = {
     default: "盈利模方 - 您必备的智能投资工具",
   },
   description:
-    "YEE式機器龍的指令及使用教學，透過簡單的一鍵式指令以及中文介面的音樂功能快速建立好和朋友玩耍的優質空間",
+    "盈利模方是第一款以投资能力为重心的智能投资工具，让用户通过建立自己的投资能力库逐步实现投资上的盈利。",
   twitter: {
     card: "summary_large_image",
   },
   openGraph: {
     images: "/opengraph-image.png",
     title: {
-      template: "Yeecord - %s",
-      default: "Yeecord - 萬中選一的 Discord 機器人",
+      template: "盈利模方- %s",
+      default: "盈利模方 - 您必备的智能投资工具",
     },
     description:
-      "YEE式機器龍的指令及使用教學，透過簡單的一鍵式指令以及中文介面的音樂功能快速建立好和朋友玩耍的優質空間",
+      "盈利模方是第一款以投资能力为重心的智能投资工具，让用户通过建立自己的投资能力库逐步实现投资上的盈利。",
   },
   metadataBase: urlBase,
 };

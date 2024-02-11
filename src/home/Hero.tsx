@@ -24,16 +24,16 @@ export function Hero() {
           "text-5xl font-bold min-[360px]:text-6xl sm:text-7xl xl:text-8xl"
         }
       >
-        投资.
+        你的能力
         <span
           className={clsx(
             "mx-1 bg-gradient-to-r from-blue-400 via-green-300 to-blue-400 bg-clip-text text-transparent max-lg:my-2 max-lg:block",
             styles["animated-gradient"],
           )}
         >
-          爱拼
+         才是你的
         </span>
-        才会.盈
+        财富来源
       </h1>
       <p
         className={clsx(
@@ -41,7 +41,7 @@ export function Hero() {
           "md:max-w-[650px] lg:text-2xl",
         )}
       >
-        快来建立自己的投资能力，并拼装出自己的投资助手吧！ 
+        快来建起自己的数字投资能力库，尽快实现财源滚滚吧！ 
       </p>
       <Buttons />
       <div className="mt=[3rem] flex w-full flex-col gap-5 md:mt-[4rem]">
