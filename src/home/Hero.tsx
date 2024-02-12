@@ -70,7 +70,6 @@ function Buttons() {
   return (
     <div className="grid w-full max-w-[500px] grid-cols-1 gap-3 sm:w-fit sm:grid-cols-2">
       <LinkButton href="https://tz.jinniuai.com" className={clsx(bn, styles["rainbow-border"])}>
-      <ExternalLinkIcon />
         快速开始
       </LinkButton>
       <LinkButton
@@ -82,6 +81,7 @@ function Buttons() {
           bn,
         )}
       >
+      <ExternalLinkIcon />
         帮助中心
       </LinkButton>
     </div>
