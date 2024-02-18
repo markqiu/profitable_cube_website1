@@ -65,8 +65,7 @@ function Content() {
     <div className="flex max-w-[750px] flex-col gap-3 sm:p-5 lg:max-w-none">
       <h2 className="mb-2 text-3xl font-bold sm:text-4xl">轻松发布投资助手</h2>
       <p className="text-lg text-muted-foreground">
-        将您训练成功的投资助手发不到模拟组合中
-        可以更好的让他给您提供个性化服务
+      既能按照自己的想法拼接助手，又能借鉴按照各路大师想法提炼的投资助手
       </p>
       <div className="mt-3 flex flex-row gap-2.5">
         <LinkButton
@@ -87,10 +86,10 @@ function Playlist() {
   return (
     <div className="-mt-[60px] ml-[150px] flex flex-col gap-5">
       <Song img={FightSong} duration="4:18">
-        投资能力 - DCF绝对估值
+      詹姆士赫瑟相对价值成长选股法则
       </Song>
       <Song img={KickBack} duration="4:18">
-        投资能力 - 选出成熟好公司
+      ROE-PB策略投资助手
       </Song>
     </div>
   );
@@ -130,7 +129,7 @@ function MusicPlayer() {
     <div className="flex w-full max-w-[400px] flex-col gap-3 rounded-2xl bg-white p-5 dark:bg-zinc-900">
       <div className="mb-2 inline-flex items-center gap-2.5">
         <MusicIcon />
-        <p className="font-bold">ZUTOMAYO - Study Me</p>
+        <p className="font-bold">本杰明格雷厄姆成长股内在价值投资法</p>
       </div>
       <Progress track="w-[66%]" />
       <div className="mt-2 flex flex-row gap-2.5">

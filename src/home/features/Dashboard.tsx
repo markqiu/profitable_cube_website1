@@ -22,11 +22,11 @@ export function Dashboard() {
             "from-transparent via-purple-400 to-purple-600 dark:to-purple-100",
           )}
         />
-        <h2 className="text-3xl font-bold sm:text-5xl">简单易用的助手创建功能</h2>
+        <h2 className="text-3xl font-bold sm:text-5xl">从0到1轻松搭建属于您的助手</h2>
         <p className="text-lg text-muted-foreground sm:text-xl">
-          通过美丽、简单的方式来定义
+        无需冗杂的步骤，只需几步即可开启
           <br className="sm:hidden" />
-          你的投资助手
+          您的投资之旅
         </p>
       </div>
       <div className="mt-[2rem] grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -50,8 +50,8 @@ function Settings() {
           <SettingsIcon />
         </div>
         <div>
-          <p className="text-lg font-bold sm:text-xl">设置</p>
-          <p className="text-muted-foreground">助手是可配置的投资机器人</p>
+          <p className="text-lg font-bold sm:text-xl">可设置</p>
+          <p className="text-muted-foreground">助手一个可配置的智能体</p>
         </div>
       </div>
       <Link
@@ -76,8 +76,8 @@ function Chart() {
           <BarChartIcon />
         </div>
         <div>
-          <p className="text-lg font-bold sm:text-xl">您的投资助手</p>
-          <p className="text-muted-foreground">数据分析</p>
+          <p className="text-lg font-bold sm:text-xl">数据分析</p>
+          <p className="text-muted-foreground">均来自真实实盘，并通过严谨可靠的方式检查、修正</p>
         </div>
       </div>
       <Image src={ChartSvg} alt="chart" className="mt-auto rounded-3xl" />
@@ -98,7 +98,7 @@ function Music() {
         </div>
         <div>
           <p className="text-lg font-bold sm:text-xl">组合</p>
-          <p className="text-muted-foreground">实盘跟踪组合</p>
+          <p className="text-muted-foreground">全流程实时跟踪，确保您的想法落到实处</p>
         </div>
       </div>
       <div className="mt-auto flex flex-row items-center gap-2.5 pt-2">

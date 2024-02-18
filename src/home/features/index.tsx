@@ -19,9 +19,9 @@ export function Features() {
           您需要的功能&#8288;都&#8288;在&#8288;这
         </h2>
         <h3 className="mx-auto max-w-2xl text-xl text-muted-foreground">
-          从投资想法实现、投资能力库到投资助手训练场和组合功能
+        从投资能力库到投资助手训练场和组合发布，还能按照您的想法不断优化，
           <br />
-          我们为您提供全新的智能投资体验
+          为您全新的智能投资之路保驾护航
         </h3>
       </div>
       <ChineseUI />

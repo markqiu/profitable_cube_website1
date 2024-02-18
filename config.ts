@@ -32,12 +32,12 @@ export const footer: FooterCategory[] = [
     items: [
       {
         label: "微博",
-        href: "https://github.com/yeecord",
+        href: "https://www.jinniuai.com",
         newWindow: true,
       },
       {
         label: "知乎",
-        href: "https://www.patreon.com/yeecord",
+        href: "https://www.jinniuai.com",
         newWindow: true,
       },
       {

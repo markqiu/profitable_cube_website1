@@ -42,7 +42,7 @@ function Info() {
           height={40}
           className="rounded-full"
         />
-        <p className="text-xl font-bold">Yeecord</p>
+        <p className="text-xl font-bold">盈利模方</p>
       </div>
       <p className="mt-2 text-xs text-muted-foreground">
         盈利模方 © 2024 ~ {new Date(Date.now()).getFullYear()}

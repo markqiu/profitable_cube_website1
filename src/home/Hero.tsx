@@ -31,9 +31,9 @@ export function Hero() {
             styles["animated-gradient"],
           )}
         >
-         才是
+         才是你的
         </span>
-        你的财富来源
+        财富来源
       </h1>
       <p
         className={clsx(
@@ -41,12 +41,12 @@ export function Hero() {
           "md:max-w-[650px] lg:text-2xl",
         )}
       >
-        快来盈利模方建立自己的数字投资能力库，让财富滚滚而来！ 
+        快来建立你的投资能力，打开你的财富之源！ 
       </p>
       <Buttons />
       <div className="mt=[3rem] flex w-full flex-col gap-5 md:mt-[4rem]">
         <p className="mb-3 text-lg font-semibold text-muted-foreground md:mb-4">
-          各大媒体一致好评
+         媒体及合作伙伴
         </p>
         <div
           className={clsx(
@@ -108,7 +108,15 @@ function Servers({ secondary }: { secondary?: boolean }) {
       <Server img="/home/customers/empressival.png" name="小白白看世界" />
       <Server
         img="/home/customers/daidai.png"
-        name="华夏基金"
+        name="中信建投证券"
+      />
+      <Server
+        img="/home/customers/daidai.png"
+        name="中金公司"
+      />
+      <Server
+        img="/home/customers/daidai.png"
+        name="华泰证券"
       />
     </div>
   );

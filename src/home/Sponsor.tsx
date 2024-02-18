@@ -7,10 +7,9 @@ export default function Sponsor() {
       <p className="text-lg tracking-widest text-purple-400">
         喜欢盈利模方?
       </p>
-      <h2 className="text-5xl font-bold">支持我们</h2>
+      <h2 className="text-5xl font-bold">加入微信群</h2>
       <p className="text-lg text-muted-foreground sm:text-xl">
-        开发和维护盈利模方是一项艰苦的工作
-        <span className="max-sm:hidden">, </span>
+        <span className="max-sm:hidden"></span>
         <br className="sm:hidden" />
         以实际行动支持我们吧
       </p>
@@ -18,17 +17,17 @@ export default function Sponsor() {
       <div className="mt-5 grid w-full max-w-[60rem] grid-cols-1 gap-4 sm:grid-cols-2">
         <Card
           title="贡献投资能力"
-          text="在 Github 上贡献"
+          text="随时说出您的投资想法"
           icon={<GithubIcon />}
-          href="https://github.com/yeecord/website"
+          href="https://www.jinniuai.com"
         >
           贡献
         </Card>
         <Card
           title="给予反馈"
-          text="在 Discord 上给予反馈"
+          text="帮助我们改进产品"
           icon={<MessageSquarePlusIcon />}
-          href="https://discord.gg/yeecord"
+          href="https://www.jinniuai.com"
         >
           加入群組
         </Card>

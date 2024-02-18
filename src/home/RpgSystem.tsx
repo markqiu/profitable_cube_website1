@@ -19,13 +19,13 @@ export function RpgSystem() {
             "mx-auto w-fit rounded-md bg-gradient-to-br from-green-400 to-green-600 px-6 py-2 text-xl font-semibold text-white sm:text-3xl",
           )}
         >
-          训练场
+          投资想法实现
         </p>
         <h2 className="text-5xl font-bold sm:text-5xl lg:text-6xl">
-          开创性的<span className="whitespace-nowrap">投资助手训练</span>
+        任何想法都能<span className="whitespace-nowrap">成为您的投资能力</span>
         </h2>
         <h3 className="mx-auto max-w-2xl text-xl text-muted-foreground">
-          能力都是练出来的，越 PK 越靠谱，赶快来PK一下你的投资助手吧！
+        快把想法告诉盈利模方，让盈利不再光凭运气！
         </h3>
       </div>
       <Background />
@@ -52,25 +52,29 @@ function Jobs() {
   return (
     <div className="mt-10 grid grid-cols-1 gap-3 text-start md:grid-cols-2 lg:grid-cols-3">
       <Job
-        name="ROE-PB 投资策略"
-        description="短线每周调仓，每次买入估值最低的小市值股票"
+        name="想法1"
+        description="我想在低点买入沪深300，并在高点卖出"
       />
       <Job
-        name="价值投资一号"
-        description="稳健投资，关注企业内在价值，在有安全边际时买入"
+        name="想法2"
+        description="刚接触股票投资的人该如何选股？"
       />
       <Job
-        name="买狗股"
-        description="买入高股息的股票，每年调仓"
+        name="想法3"
+        description="能给我推荐一种容易掌握的资产配置方法吗？"
       />
       <Job
-        name="涨停敢死队"
-        description="追涨停，追求绝对高收益"
+        name="想法4"
+        description="怎么解决买了就跌，卖了就涨的问题？"
         optional
       />
       <Job
-        name="人工智能高科技狂人"
-        description="投资靠人工智能挖矿"
+        name="想法5"
+        description="我想根据市场情绪反向操作"
+      />
+      <Job
+        name="想法6"
+        description="这个时间点下还能买基金吗？"
       />
     </div>
   );
