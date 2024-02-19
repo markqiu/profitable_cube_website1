@@ -52,28 +52,28 @@ function Jobs() {
   return (
     <div className="mt-10 grid grid-cols-1 gap-3 text-start md:grid-cols-2 lg:grid-cols-3">
       <Job
-        name="想法1"
+        name="张*明"
         description="我想在低点买入沪深300，并在高点卖出"
       />
       <Job
-        name="想法2"
+        name="H***j"
         description="刚接触股票投资的人该如何选股？"
       />
       <Job
-        name="想法3"
+        name="电**川"
         description="能给我推荐一种容易掌握的资产配置方法吗？"
       />
       <Job
-        name="想法4"
+        name="监***值"
         description="怎么解决买了就跌，卖了就涨的问题？"
         optional
       />
       <Job
-        name="想法5"
+        name="微***g"
         description="我想根据市场情绪反向操作"
       />
       <Job
-        name="想法6"
+        name="三***道"
         description="这个时间点下还能买基金吗？"
       />
     </div>

@@ -103,20 +103,20 @@ function Servers({ secondary }: { secondary?: boolean }) {
       <Server img="/home/customers/zeitfrei.png" name="中信证券" transparent />
       <Server
         img="/home/customers/daptor.png"
-        name="抖音"
+        name="闲来一坐s话投资"
       />
-      <Server img="/home/customers/empressival.png" name="小白白看世界" />
+      <Server img="/home/customers/empressival.png" name="银行螺丝钉" />
       <Server
         img="/home/customers/daidai.png"
-        name="中信建投证券"
-      />
-      <Server
-        img="/home/customers/daidai.png"
-        name="中金公司"
+        name="不明真相的群众"
       />
       <Server
         img="/home/customers/daidai.png"
-        name="华泰证券"
+        name="管我财"
+      />
+      <Server
+        img="/home/customers/daidai.png"
+        name="/唐史主任司马迁"
       />
     </div>
   );
