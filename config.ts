@@ -47,7 +47,7 @@ export const footer: FooterCategory[] = [
       },
       {
         label: "微信",
-        href: "https://top.gg/bot/584213384409382953",
+        href: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NzA4MjcyMA==&scene=124#wechat_redirect",
         newWindow: true,
       },
     ],
