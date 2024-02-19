@@ -55,7 +55,7 @@ function Settings() {
         </div>
       </div>
       <Link
-        href="/docs/commands/role"
+        href="https://guide.jinniuai.com/xszn/67ea"
         className="mt-auto rounded-xl bg-gradient-to-b from-purple-400 to-purple-600 px-6 py-3 text-center text-sm font-medium text-white"
       >
         + 添加新能力

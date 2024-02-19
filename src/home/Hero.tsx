@@ -73,7 +73,7 @@ function Buttons() {
         快速开始
       </LinkButton>
       <LinkButton
-        href="/docs"
+        href="https://guide.jinniuai.com"
         target="_blank"
         className={cn(
           "inline-flex items-center justify-center gap-2.5 bg-black text-white",

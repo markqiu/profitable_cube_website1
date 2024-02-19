@@ -73,7 +73,7 @@ function Content() {
             "rounded-full bg-gradient-to-r from-cyan-500 to-green-500 px-6 py-3 text-base font-medium text-white",
             "flex h-fit flex-row items-center gap-2",
           )}
-          href="/docs"
+          href="https://guide.jinniuai.com"
         >
           了解更多 <ArrowRightCircleIcon className="inline" />
         </LinkButton>

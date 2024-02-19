@@ -34,7 +34,7 @@ export default function RootDocsLayout({ children }: { children: ReactNode }) {
             </Link>
             <div className="mb-4 flex flex-col lg:hidden">
               <Link
-                href="/docs"
+                href="https://guide.jinniuai.com"
                 className={cn(
                   itemVariants({
                     active: true,

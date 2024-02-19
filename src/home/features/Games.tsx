@@ -63,7 +63,7 @@ export function Games() {
             </p>
             <LinkButton
               className="mt-6 rounded-full bg-gradient-to-br from-orange-400 to-pink-500 px-6 py-3 text-lg font-bold text-white"
-              href="/docs/rpg/"
+              href="https://guide.jinniuai.com/xszn/67ea"
             >
               了解更多
             </LinkButton>
