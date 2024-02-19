@@ -41,7 +41,7 @@ export function Hero() {
           "md:max-w-[650px] lg:text-2xl",
         )}
       >
-        快来建立你的投资能力，打开你的财富之源！ 
+        全球首创，盈利模方帮助您获取、使用和优化投资能力！ 
       </p>
       <Buttons />
       <div className="mt=[3rem] flex w-full flex-col gap-5 md:mt-[4rem]">
