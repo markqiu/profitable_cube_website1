@@ -40,7 +40,7 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
           }
           links={[
             {
-              href: "https://www.jinniuai.com",
+              href: "https://github.com/markqiu/profitable_cube_website1",
               label: "Github",
               icon: <GithubIcon className="h-5 w-5" />,
               external: true,

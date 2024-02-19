@@ -37,7 +37,7 @@ export default function BlogIndex() {
             查看所有標籤
           </LinkButton>
           <LinkButton
-            href="https://github.com/yeecord/website"
+            href="https://github.com/markqiu/profitable_cube_website1"
             icon={<GithubIcon className="h-4 w-4" />}
             target="_blank"
           >

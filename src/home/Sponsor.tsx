@@ -19,7 +19,7 @@ export default function Sponsor() {
           title="贡献投资能力"
           text="随时说出您的投资想法"
           icon={<GithubIcon />}
-          href="https://www.jinniuai.com"
+          href="https://github.com/markqiu/profitable_cube_website1"
         >
           贡献
         </Card>
@@ -27,7 +27,7 @@ export default function Sponsor() {
           title="给予反馈"
           text="帮助我们改进产品"
           icon={<MessageSquarePlusIcon />}
-          href="https://www.jinniuai.com"
+          href="https://github.com/markqiu/profitable_cube_website1/issues/new"
         >
           加入群組
         </Card>

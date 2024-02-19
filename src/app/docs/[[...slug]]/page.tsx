@@ -34,12 +34,12 @@ export default function Page({ params }: { params: { slug?: string[] } }) {
       tableOfContent={{
         footer: (
           <a
-            href={`https://github.com/yeecord/website/tree/master/${page.file.path}`}
+            href={`https://github.com/markqiu/profitable_cube_website1/tree/master/${page.file.path}`}
             rel="noreferrer noopener"
             target="_blank"
             className="inline-flex items-center text-xs text-muted-foreground hover:text-accent-foreground"
           >
-            在 Github 上編輯此頁面 <ExternalLinkIcon className="ml-2 h-3 w-3" />
+            在 Github 上编辑此页面 <ExternalLinkIcon className="ml-2 h-3 w-3" />
           </a>
         ),
       }}
