@@ -6,7 +6,7 @@
 
 ## ❓ 这是哪？
 
-这是盈利模方的网站源代码项目。如果您想体验盈利模方的产品，请前往[APP](https://www.jinniuai.com/)页面。若想浏览文档，可以前往[帮助中心](https://www.jinniuai.com/)！
+这是盈利模方的网站源代码项目。如果您想体验盈利模方的产品，请前往[APP](https://www.jinniuai.com/)页面。若想浏览文档，可以前往[帮助中心](https://guide.jinniuai.com/)！
 
 ## ⚠️ 请注意
 
