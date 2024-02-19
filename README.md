@@ -1,38 +1,38 @@
 <h1 align="center">
     <img src="https://yeecord.com/img/logo-transparent.png" alt="Yeecord" width="48" height="48">
-    YEE式機器龍
+    盈利模方官方网站源代码
 </h1>
-<p align="center">一隻全中文的機器人，並結合了音樂系統、RPG、動態語音頻道、跨群聊天等功能，讓 Discord 不再只是聊天軟體</p>
+<p align="center">巴菲特说：“你的能力才是你的财富来源”。盈利模方是一款帮助客户获得和提升投资能力的投资能力管理软件。致力于用高科技手段帮助客户更低成本的获得投资能力，更高效和精准的使用投资能力。</p>
 
-## ❓ 這是哪
+## ❓ 这是哪？
 
-這是 YEE 式機器龍的文檔原始碼，若您想要翻閱如何使用機器人，請前往 [入門](https://yeecord.com/docs/) 頁面，若想要進行協作，我們很歡迎你，可以開始閱讀 [文檔貢獻指南](https://yeecord.com/docs/contribute/)！
+这是盈利模方的网站源代码项目。如果您想体验盈利模方的产品，请前往[APP](https://www.jinniuai.com/)页面。若想浏览文档，可以前往[帮助中心](https://www.jinniuai.com/)！
 
-## ⚠️ 請注意
+## ⚠️ 请注意
 
 ### pnpm
 
-若要在本地進行測試，請確保使用 `pnpm` 套件管理器（[安裝方式](https://pnpm.io/zh-TW/installation)）而非 `npm` 會無法安裝套件️！！
+若要在本地進行測試，请确保使用 `pnpm` 做包管理器（[安裝方式](https://pnpm.io/zh-Cn/installation)）而非 `npm` 会无法安装！！
 
-### 執行
+### 执行
 
-使用 `pnpm dev` 開始執行，並會在 `http://localhost:3000` 可以進行預覽
+使用 `pnpm dev` 开始执行，并会在 `http://localhost:3000` 可以进行预览
 
-## 📝 授權
+## 📝 授权
 
 ### 文章
 
-在 `content` 資料夾下的文件接受到 CC BY 4.0 之保護。只有在以下情況使用才符合要求。
+在 `content` 资料夹下的文件接受到 CC BY 4.0 之保护。只有在以下情况使用才符合要求。
 
-1. 在文章 <head> 標籤內標明原始文章來源： `<link rel="canonical" href="https://yeecord.com/blog/how-to-invite-bot" />`
-2. 並在文章開頭和結尾標註： `文章來源： <a href="https://yeecord.com/">YEE式機器龍</a>`
+1. 在文章 <head> 标签内标明原始文章来源： `<link rel="canonical" href="https://www.jinniuai.com" />`
+2. 并在文章开头和结尾标注： `文章来源： <a href="https://www.jinniuai.com/">盈利模方</a>`
 
-### 圖像
+### 图像
 
-在頁面中使用之圖像授權，可在 [版權所有](https://yeecord.com/docs/copyright/) 頁面查詢
+在页面中使用之图像授权，可在 [版权所有](https://www.jinniuai.com/docs/copyright/) 页面查询
 
 ### 其他文件
 
-上述未及提到之文件皆以 MIT 許可授權
+上述未及提到之文件皆以 MIT 许可授权
 
-> 詳細之授權請參照 [LICENSE](LICENSE) 及 [LICENSE-CODE](LICENSE-CODE) 文件
+> 详细之授权请参照 [LICENSE](LICENSE) 及 [LICENSE-CODE](LICENSE-CODE) 文件
