@@ -32,17 +32,17 @@ export const footer: FooterCategory[] = [
     items: [
       {
         label: "微博",
-        href: "https://www.jinniuai.com",
+        href: "https://weibo.com/u/7811272301",
         newWindow: true,
       },
       {
         label: "知乎",
-        href: "https://www.jinniuai.com",
+        href: "https://www.zhihu.com/people/26-24-79-65",
         newWindow: true,
       },
       {
-        label: "Twitter",
-        href: "https://twitter.com/yeecord",
+        label: "雪球",
+        href: "https://xueqiu.com/u/9827075864",
         newWindow: true,
       },
       {
@@ -57,22 +57,22 @@ export const footer: FooterCategory[] = [
     items: [
       {
         label: "想法实现",
-        href: "https://app.yeecord.com",
+        href: "https://tz.jinniuai.com/idea/create",
         newWindow: true,
       },
       {
         label: "投资能力库",
-        href: "https://app.yeecord.com/invite",
+        href: "https://tz.jinniuai.com/principleLibrary",
         newWindow: true,
       },
       {
         label: "投资助手库",
-        href: "https://discord.gg/yeecord",
+        href: "https://tz.jinniuai.com/train/list",
         newWindow: true,
       },
       {
-        label: "服务状态",
-        href: "https://status.yeecord.com/",
+        label: "bug报告",
+        href: "https://github.com/markqiu/profitable_cube_website1/issues/new",
         newWindow: true,
       },
     ],
