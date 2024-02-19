@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://yeecord.com/img/logo-transparent.png" alt="Yeecord" width="48" height="48">
+    <img src="https://www.jinniuai.com/img/logo-transparent.png" alt="盈利模方" width="48" height="48">
     盈利模方官方网站源代码
 </h1>
 <p align="center">巴菲特说：“你的能力才是你的财富来源”。盈利模方是一款帮助客户获得和提升投资能力的投资能力管理软件。致力于用高科技手段帮助客户更低成本的获得投资能力，更高效和精准的使用投资能力。</p>

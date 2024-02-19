@@ -42,7 +42,7 @@ function JoinButton() {
       />
       <div className="flex flex-row flex-wrap justify-center gap-4">
         <LinkButton
-          href="https://x.com/yeecord"
+          href="https://github.com/markqiu/profitable_cube_website1/issues"
           target="_blank"
           className="inline-flex items-center gap-3 rounded-lg bg-primary px-4 py-2 text-lg font-medium text-primary-foreground"
         >
@@ -56,7 +56,7 @@ function JoinButton() {
           @profitable-cube
         </LinkButton>
         <LinkButton
-          href="https://discord.gg/yeecord"
+          href="https://github.com/markqiu/profitable_cube_website1/issues/new"
           target="_blank"
           className="inline-flex items-center gap-3 rounded-lg border bg-secondary px-4 py-2 text-lg font-medium text-secondary-foreground"
         >

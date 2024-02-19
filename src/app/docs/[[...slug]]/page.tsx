@@ -13,16 +13,7 @@ export default function Page({ params }: { params: { slug?: string[] } }) {
   if (!page) notFound();
 
   const neighbours = findNeighbour(docs.tree, docs.getPageUrl(page.slugs));
-  // const headers = new Headers();
 
-  // const time = await getGitLastEditTime(
-  //   "yeecord/website",
-  //   resolve("", page.file.path),
-  //   undefined,
-  //   {
-  //     headers,
-  //   },
-  // );
 
   const Content = page.data.default;
 
