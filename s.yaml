@@ -1,0 +1,39 @@
+edition: 1.0.0 #  命令行YAML规范版本，遵循语义化版本（Semantic Versioning）规范
+name: principle-ui #  项目名称
+# access 是当前应用所需要的密钥信息配置：
+# 密钥配置可以参考：https://www.serverless-devs.com/serverless-devs/command/config
+# 密钥使用顺序可以参考：https://www.serverless-devs.com/serverless-devs/tool#密钥使用顺序与规范
+access: "default"
+
+vars: # 全局变量
+  region: "cn-zhangjiakou"
+
+services:
+  jinniu-website-test: # 业务名称/模块名称
+    component: fc # 组件名称
+    actions:
+      pre-deploy:  # 注意，环境变量不能在外面设，这样会覆盖默认的环境变量，要在这里加上
+        - run: npm config -g set registry https://registry.npmmirror.com && npm install -g pnpm && pnpm install && pnpm build
+          path: ./
+        - plugin: website-fc
+    props: # 组件的属性值
+      region: ${vars.region}
+      service:
+        name: "principle-ui"
+        description: "原则投资ui"
+      function:
+        name: "jinniu-website-test"
+        description: "官网测试"
+        codeUri: ./out
+        timeout: 30
+        memorySize: 512
+      triggers:
+        - name: httpTrigger
+          type: http
+          config:
+            authType: anonymous
+            methods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
