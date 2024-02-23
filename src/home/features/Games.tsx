@@ -56,14 +56,14 @@ export function Games() {
         >
           <div>
             <h2 className="mb-2 text-2xl font-bold sm:text-3xl">
-            投资之路不平坦，训练场上先试试
+              投资之路不平坦，训练场上先试试
             </h2>
             <p className="text-lg text-muted-foreground sm:text-xl">
-            通过历史回测和实盘跟踪全方位地检验助手的优劣。
+              通过历史回测和实盘跟踪全方位地检验助手的优劣。
             </p>
             <LinkButton
               className="mt-6 rounded-full bg-gradient-to-br from-orange-400 to-pink-500 px-6 py-3 text-lg font-bold text-white"
-              href="https://guide.jinniuai.com/xszn/67ea"
+              href="https://tz.jinniuai.com/"
             >
               了解更多
             </LinkButton>
@@ -73,13 +73,23 @@ export function Games() {
               whileInView="show"
               initial="hidden"
             >
-              <Item icon={<BarChartIcon className="h-8 w-8" />}>拼装助手</Item>
-              <Item icon={<PencilLineIcon className="h-8 w-8" />}>
-              在历史中查看效果
-              </Item>
-              <Item icon={<SwordIcon className="h-8 w-8" />} active>
-              在实盘中跟踪表现
-              </Item>
+              <LinkButton href="https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d8443a9b8c57b2be7b74c3" className="w-full">
+                <Item icon={<BarChartIcon className="h-8 w-8" />}>
+                  拼装助手
+                </Item>
+              </LinkButton>
+
+              <LinkButton href="https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d8443a9b8c57b2be7b74c3" className="w-full">
+                <Item icon={<PencilLineIcon className="h-8 w-8" />}>
+                  在历史中查看效果
+                </Item>
+              </LinkButton>
+
+              <LinkButton href="https://tz.jinniuai.com/visitor/combination/detail/6594d3c5ba3003f8eae601c8?t=65d844c843eb7a8e436dc826" className="w-full">
+                <Item icon={<SwordIcon className="h-8 w-8" />} active>
+                  在实盘中跟踪表现
+                </Item>
+              </LinkButton>
             </motion.div>
           </div>
 
