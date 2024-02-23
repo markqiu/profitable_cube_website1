@@ -46,8 +46,8 @@ export const footer: FooterCategory[] = [
         newWindow: true,
       },
       {
-        label: "微信",
-        href: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NzA4MjcyMA==&scene=124#wechat_redirect",
+        label: "微信公众号",
+        href: "https://beehive5-dev.oss-cn-zhangjiakou.aliyuncs.com/20240223-172524.jpeg",
         newWindow: true,
       },
     ],
