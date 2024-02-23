@@ -14,17 +14,17 @@ export const footer: FooterCategory[] = [
     title: "盈利模方",
     items: [
       {
-        label: "博客",
-        href: "/blog/",
+        label: "帮助中心",
+        href: "https://guide.jinniuai.com",
       },
-      {
-        label: "隐私权声明",
-        href: "/privacy/",
-      },
-      {
-        label: "使用条款",
-        href: "/terms/",
-      },
+      // {
+      //   label: "隐私权声明",
+      //   href: "/privacy/",
+      // },
+      // {
+      //   label: "使用条款",
+      //   href: "/terms/",
+      // },
     ],
   },
   {
@@ -46,8 +46,8 @@ export const footer: FooterCategory[] = [
         newWindow: true,
       },
       {
-        label: "微信",
-        href: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NzA4MjcyMA==&scene=124#wechat_redirect",
+        label: "微信公众号",
+        href: "https://beehive5-dev.oss-cn-zhangjiakou.aliyuncs.com/20240223-172524.jpeg",
         newWindow: true,
       },
     ],
@@ -71,7 +71,7 @@ export const footer: FooterCategory[] = [
         newWindow: true,
       },
       {
-        label: "bug报告",
+        label: "问题反馈",
         href: "https://github.com/markqiu/profitable_cube_website1/issues/new",
         newWindow: true,
       },

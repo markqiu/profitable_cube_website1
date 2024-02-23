@@ -50,12 +50,12 @@ function Settings() {
           <SettingsIcon />
         </div>
         <div>
-          <p className="text-lg font-bold sm:text-xl">可设置</p>
-          <p className="text-muted-foreground">助手一个可配置的智能体</p>
+          <p className="text-lg font-bold sm:text-xl">设置</p>
+          <p className="text-muted-foreground">一个智能助手</p>
         </div>
       </div>
       <Link
-        href="https://guide.jinniuai.com/xszn/67ea"
+        href="https://tz.jinniuai.com/visitor/principleLibrary/detail/P202306001?t=65d8617cc5ff20fad6446ccf"
         className="mt-auto rounded-xl bg-gradient-to-b from-purple-400 to-purple-600 px-6 py-3 text-center text-sm font-medium text-white"
       >
         + 添加新能力

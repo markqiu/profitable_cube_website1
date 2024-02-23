@@ -4,9 +4,7 @@ import { GithubIcon, MessageSquarePlusIcon } from "lucide-react";
 export default function Sponsor() {
   return (
     <div className="mt-20 flex flex-col items-center gap-3 bg-gradient-to-b from-secondary/50 px-4 py-40 text-center">
-      <p className="text-lg tracking-widest text-purple-400">
-        喜欢盈利模方?
-      </p>
+      <p className="text-lg tracking-widest text-purple-400">喜欢盈利模方?</p>
       <h2 className="text-5xl font-bold">加入微信群</h2>
       <p className="text-lg text-muted-foreground sm:text-xl">
         <span className="max-sm:hidden"></span>
@@ -16,20 +14,38 @@ export default function Sponsor() {
 
       <div className="mt-5 grid w-full max-w-[60rem] grid-cols-1 gap-4 sm:grid-cols-2">
         <Card
-          title="贡献投资能力"
-          text="随时说出您的投资想法"
+          title="加入群聊"
+          text="与志同道合的人相互沟通"
           icon={<GithubIcon />}
-          href="https://github.com/markqiu/profitable_cube_website1"
+          href=""
+          content={
+            <div>
+              <img
+                className="mx-auto mt-[20px]"
+                src="/home/customers/群聊.jpeg"
+                width="300"
+              />
+            </div>
+          }
         >
-          贡献
+          扫码加入
         </Card>
         <Card
-          title="给予反馈"
-          text="帮助我们改进产品"
+          title="贡献投资能力"
+          text="随时说出您的投资想法，我们负责将其实现"
           icon={<MessageSquarePlusIcon />}
-          href="https://github.com/markqiu/profitable_cube_website1/issues/new"
+          href=""
+          content={
+            <div>
+              <img
+                className="mx-auto mt-[20px]"
+                src="/home/customers/客服微信二维码.jpg"
+                width="300"
+              />
+            </div>
+          }
         >
-          加入群組
+          扫码添加
         </Card>
       </div>
     </div>
@@ -42,12 +58,14 @@ function Card({
   icon,
   children,
   href,
+  content,
 }: {
   title: string;
   text: string;
   icon: ReactNode;
   children: string;
   href: string;
+  content?: ReactNode;
 }) {
   return (
     <div className="rounded-xl border-[1px] border-black/10 bg-white/40 p-4 text-start shadow-lg dark:border-white/10 dark:bg-white/10">
@@ -65,6 +83,8 @@ function Card({
           {children}
         </button>
       </a>
+
+      {content}
     </div>
   );
 }

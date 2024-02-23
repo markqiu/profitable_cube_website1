@@ -31,7 +31,7 @@ export function Hero() {
             styles["animated-gradient"],
           )}
         >
-         才是你的
+          才是你的
         </span>
         财富来源
       </h1>
@@ -41,12 +41,12 @@ export function Hero() {
           "md:max-w-[650px] lg:text-2xl",
         )}
       >
-        全球首创，盈利模方帮助您获取、使用和优化投资能力！ 
+        全球首创，盈利模方帮助您获取、使用和优化投资能力！
       </p>
       <Buttons />
       <div className="mt=[3rem] flex w-full flex-col gap-5 md:mt-[4rem]">
         <p className="mb-3 text-lg font-semibold text-muted-foreground md:mb-4">
-         媒体及合作伙伴
+          媒体及合作伙伴
         </p>
         <div
           className={clsx(
@@ -56,7 +56,6 @@ export function Hero() {
         >
           <div className={clsx(styles.servers, "inline-block max-md:w-max")}>
             <Servers />
-            <Servers secondary />
           </div>
         </div>
       </div>
@@ -69,7 +68,10 @@ function Buttons() {
 
   return (
     <div className="grid w-full max-w-[500px] grid-cols-1 gap-3 sm:w-fit sm:grid-cols-2">
-      <LinkButton href="https://tz.jinniuai.com" className={clsx(bn, styles["rainbow-border"])}>
+      <LinkButton
+        href="https://tz.jinniuai.com"
+        className={clsx(bn, styles["rainbow-border"])}
+      >
         快速开始
       </LinkButton>
       <LinkButton
@@ -81,7 +83,7 @@ function Buttons() {
           bn,
         )}
       >
-      <ExternalLinkIcon />
+        <ExternalLinkIcon />
         帮助中心
       </LinkButton>
     </div>
@@ -97,27 +99,15 @@ function Servers({ secondary }: { secondary?: boolean }) {
         secondary && "md:hidden",
       )}
     >
-      <Server img="/home/customers/apex-tw.png" name="新浪财经" />
-      <Server img="/home/customers/valorant-tw.png" name="雪球" />
-      <Server img="/home/customers/avery.png" name="今日头条" transparent />
-      <Server img="/home/customers/zeitfrei.png" name="中信证券" transparent />
-      <Server
-        img="/home/customers/daptor.png"
-        name="闲来一坐s话投资"
-      />
-      <Server img="/home/customers/empressival.png" name="银行螺丝钉" />
-      <Server
-        img="/home/customers/daidai.png"
-        name="不明真相的群众"
-      />
-      <Server
-        img="/home/customers/daidai.png"
-        name="管我财"
-      />
-      <Server
-        img="/home/customers/daidai.png"
-        name="/唐史主任司马迁"
-      />
+      <Server img="/home/customers/新浪财经.jpg" name="新浪财经" />
+      <Server img="/home/customers/雪球.jpg" name="雪球" />
+      <Server img="/home/customers/今日头条.jpeg" name="今日头条" />
+      <Server img="/home/customers/中信证券.jpg" name="中信证券" />
+      <Server img="/home/customers/闲来一坐.jpg" name="闲来一坐s话投资" />
+      <Server img="/home/customers/银行螺丝钉.png" name="银行螺丝钉" />
+      <Server img="/home/customers/不明真相的群众.png" name="不明真相的群众" />
+      <Server img="/home/customers/管我财.jpg" name="管我财" />
+      <Server img="/home/customers/唐史主任.jpg" name="唐史主任司马迁" />
     </div>
   );
 }
@@ -139,7 +129,7 @@ function Server({
         width="45"
         height="45"
         className={clsx(
-          "rounded-full grayscale",
+          "h-[45px] rounded-full ",
           transparent && "brightness-[0%] dark:brightness-100",
         )}
       />
