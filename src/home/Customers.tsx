@@ -77,19 +77,19 @@ export function Customers() {
           }}
         >
           <Comment
-            icon="/blog/sjay.png"
+            icon="/home/customers/head1.jpeg"
             author="Sjay"
             title="投资经验5年"
             content="我之前只知道巴菲特说过“买股票就是买公司”，却不知道该如何使用。盈利模方教会了我这条能力的使用方法，让我轻松判断出持仓的股票是否满足这个能力。"
           />
           <Comment
-            icon="/blog/money.jpg"
+            icon="/home/customers/head2.jpeg"
             author="Money"
             title="不会编程的量化爱好者"
             content="之前觉得量化策略深不可测，用了盈利模方才发现，只要我把投资想法告诉盈利模方，他就能将其系统化翻译，并且拿来就能直接使用，彻底打破了量化交易的技术壁垒。"
           />
           <Comment
-            icon="/blog/nathan.jpg"
+            icon="/home/customers/head3.jpeg"
             author="Nathan"
             title="一个很有想法的投资者"
             content="投资的最终目的都是挣钱，只要我把对助手的任何改进建议告诉盈利模方，他都能将其不断优化，直到达到盈利的目的为止。"
