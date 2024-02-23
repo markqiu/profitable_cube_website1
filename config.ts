@@ -14,17 +14,17 @@ export const footer: FooterCategory[] = [
     title: "盈利模方",
     items: [
       {
-        label: "博客",
-        href: "/blog/",
+        label: "帮助中心",
+        href: "https://guide.jinniuai.com",
       },
-      {
-        label: "隐私权声明",
-        href: "/privacy/",
-      },
-      {
-        label: "使用条款",
-        href: "/terms/",
-      },
+      // {
+      //   label: "隐私权声明",
+      //   href: "/privacy/",
+      // },
+      // {
+      //   label: "使用条款",
+      //   href: "/terms/",
+      // },
     ],
   },
   {
@@ -71,7 +71,7 @@ export const footer: FooterCategory[] = [
         newWindow: true,
       },
       {
-        label: "bug报告",
+        label: "问题反馈",
         href: "https://github.com/markqiu/profitable_cube_website1/issues/new",
         newWindow: true,
       },
