@@ -51,7 +51,7 @@ function Settings() {
         </div>
         <div>
           <p className="text-lg font-bold sm:text-xl">设置</p>
-          <p className="text-muted-foreground">一个智能助手</p>
+          <p className="text-muted-foreground">搭建一个智能投资助手</p>
         </div>
       </div>
       <Link

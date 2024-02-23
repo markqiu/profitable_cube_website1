@@ -15,7 +15,7 @@ export default function Sponsor() {
       <div className="mt-5 grid w-full max-w-[60rem] grid-cols-1 gap-4 sm:grid-cols-2">
         <Card
           title="加入群聊"
-          text="与志同道合的人相互沟通"
+          text="与志同道合的人共同成长"
           icon={<GithubIcon />}
           href=""
           content={
