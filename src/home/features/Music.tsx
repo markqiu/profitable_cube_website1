@@ -73,7 +73,7 @@ function Content() {
             "rounded-full bg-gradient-to-r from-cyan-500 to-green-500 px-6 py-3 text-base font-medium text-white",
             "flex h-fit flex-row items-center gap-2",
           )}
-          href="1. https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d8443a9b8c57b2be7b74c3"
+          href="https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d860f4e5cc0650248659fd"
         >
           了解更多 <ArrowRightCircleIcon className="inline" />
         </LinkButton>

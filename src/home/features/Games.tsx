@@ -73,19 +73,19 @@ export function Games() {
               whileInView="show"
               initial="hidden"
             >
-              <LinkButton href="https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d8443a9b8c57b2be7b74c3" className="w-full">
+              <LinkButton href="https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d860f4e5cc0650248659fd" className="w-full">
                 <Item icon={<BarChartIcon className="h-8 w-8" />}>
                   拼装助手
                 </Item>
               </LinkButton>
 
-              <LinkButton href="https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d8443a9b8c57b2be7b74c3" className="w-full">
+              <LinkButton href="https://tz.jinniuai.com/visitor/train/detail/6586a408a6df1b335ccfd281?t=65d860f4e5cc0650248659fd" className="w-full">
                 <Item icon={<PencilLineIcon className="h-8 w-8" />}>
                   在历史中查看效果
                 </Item>
               </LinkButton>
 
-              <LinkButton href="https://tz.jinniuai.com/visitor/combination/detail/6594d3c5ba3003f8eae601c8?t=65d844c843eb7a8e436dc826" className="w-full">
+              <LinkButton href="https://tz.jinniuai.com/visitor/combination/detail/6594d3c5ba3003f8eae601c8?t=65d861499d24908acc55d607" className="w-full">
                 <Item icon={<SwordIcon className="h-8 w-8" />} active>
                   在实盘中跟踪表现
                 </Item>
