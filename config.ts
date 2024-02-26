@@ -17,6 +17,10 @@ export const footer: FooterCategory[] = [
         label: "帮助中心",
         href: "https://guide.jinniuai.com",
       },
+      {
+        label: "blog",
+        href: "/blog",
+      },
       // {
       //   label: "隐私权声明",
       //   href: "/privacy/",
@@ -83,10 +87,7 @@ export const footer: FooterCategory[] = [
  * a list of blog file names
  */
 export const blogRecommendations = [
-  "welcome-to-v3",
-  "fix-music-lag",
-  "discord-bot-troubleshooting",
-  "how-to-invite-bot",
+  "release-v-1-8-1",
 ];
 
 export const blogAuthors: Record<string, AuthorData> = {

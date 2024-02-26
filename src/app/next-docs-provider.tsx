@@ -46,10 +46,10 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
               href: "https://guide.jinniuai.com",
               children: "帮助中心",
             },
-            // {
-            //   href: "/blog",
-            //   children: "博客",
-            // },
+            {
+              href: "/blog",
+              children: "博客",
+            },
             {
               href: "https://tz.jinniuai.com",
               children: "注册/登录",

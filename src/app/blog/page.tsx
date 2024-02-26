@@ -26,7 +26,7 @@ export default function BlogIndex() {
     <main className="mb-20 flex flex-1 flex-col gap-5">
       <div className="mb-5 mt-16">
         <h1 className="mb-8 text-center text-4xl font-bold md:text-5xl">
-          我們的部落格
+          产品新闻和博客
         </h1>
         <div className="flex flex-row justify-center gap-2.5 max-sm:flex-col max-sm:items-stretch">
           <LinkButton
@@ -34,14 +34,14 @@ export default function BlogIndex() {
             icon={<EyeIcon className="h-4 w-4" />}
             variant="primary"
           >
-            查看所有標籤
+            查看所有标签
           </LinkButton>
           <LinkButton
             href="https://github.com/markqiu/profitable_cube_website1"
             icon={<GithubIcon className="h-4 w-4" />}
             target="_blank"
           >
-            加入我們
+            加入我们
           </LinkButton>
         </div>
       </div>
@@ -68,7 +68,7 @@ function Recommendations({ items }: { items: Page[] }) {
       {items[0] != null && <LargeBlogItem page={items[0]} />}
       <div className="max-md:-ml-3">
         <h2 className="mb-3 ml-3 inline-flex items-center gap-2 text-2xl font-medium">
-          精選文章
+          精选文章
         </h2>
         <div className="flex flex-col gap-3">
           {items.map((page, i) => {
