@@ -21,7 +21,7 @@ export default function Sponsor() {
           content={
             <div>
               <img
-                className="mx-auto mt-[20px]"
+                className="mx-auto mt-[20px] p-[20px]"
                 src="/home/customers/群聊.jpeg"
                 width="300"
               />
