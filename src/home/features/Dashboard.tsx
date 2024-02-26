@@ -55,7 +55,7 @@ function Settings() {
         </div>
       </div>
       <Link
-        href="https://tz.jinniuai.com/visitor/principleLibrary/detail/P202306001?t=65d8617cc5ff20fad6446ccf"
+        href="https://tz.jinniuai.com/visitor/principleLibrary/detail/P202306001?t=65dbe6c73a6fa581e1403a2e"
         className="mt-auto rounded-xl bg-gradient-to-b from-purple-400 to-purple-600 px-6 py-3 text-center text-sm font-medium text-white"
       >
         + 添加新能力
