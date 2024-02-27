@@ -92,10 +92,10 @@ export const blogRecommendations = [
 
 export const blogAuthors: Record<string, AuthorData> = {
   kane: {
-    name: "Kane Wang",
-    title: "YEE式機器龍作者",
-    url: "https://bento.me/kanewang",
-    image_url: "/blog/kane50613.jpg",
+    name: "Li Gen",
+    title: "盈利模方小编",
+    url: "https://https://tz.jinniuai.com/",
+    image_url: "public/blog/images/头像.jpg",
   },
   wolf: {
     name: "Wolf yuan 狼苑",
