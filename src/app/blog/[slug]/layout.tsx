@@ -82,7 +82,7 @@ function Footer({ page }: { page: Page }) {
   return (
     <div className="mt-[5rem] flex flex-col gap-6">
       <div className="flex flex-row flex-wrap gap-2 text-base">
-        <p>標籤</p>
+        <p>标签</p>
         {page.matter.tags.map((tag) => (
           <Link
             key={tag}

@@ -19,7 +19,7 @@ export default function TagPage({ params }: { params: { tag: string } }) {
         <h1 className="mb-4 text-center text-3xl font-bold">{`帶有「${decodedTag}」標籤的文章`}</h1>
 
         <LinkButton href="/blog/tags" className="mx-auto">
-          所有標籤
+          所有标签
         </LinkButton>
       </div>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -49,13 +49,13 @@ export function generateMetadata({
   const decodedTag = decodeURIComponent(params.tag);
 
   return {
-    title: `帶有「${decodedTag}」標籤的文章`,
+    title: `帶有「${decodedTag}」标签的文章`,
     alternates: {
       canonical: `${domain}/blog/tags/${params.tag}`,
     },
     openGraph: {
       images: "/opengraph-image.png",
-      title: `帶有「${decodedTag}」標籤的文章`,
+      title: `帶有「${decodedTag}」标签的文章`,
     },
   };
 }
