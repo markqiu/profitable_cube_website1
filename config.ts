@@ -91,7 +91,7 @@ export const blogRecommendations = [
 ];
 
 export const blogAuthors: Record<string, AuthorData> = {
-  kane: {
+  ligen: {
     name: "Li Gen",
     title: "盈利模方小编",
     url: "https://https://tz.jinniuai.com/",
