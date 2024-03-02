@@ -29,7 +29,7 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
           enableSidebar={pathname === "/docs" || pathname.startsWith("/docs/")}
           title={
             <>
-              <img src="./icon.png" alt="logo" width="28" height="28" />
+              <img src="/icon.png" alt="logo" width="28" height="28" />
               <span className="ml-2 text-lg font-bold">盈利模方</span>
             </>
           }
