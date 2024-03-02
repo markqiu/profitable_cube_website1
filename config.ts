@@ -94,7 +94,7 @@ export const blogAuthors: Record<string, AuthorData> = {
   ligen: {
     name: "Li Gen",
     title: "盈利模方小编",
-    url: "https://https://tz.jinniuai.com/",
+    url: "https://tz.jinniuai.com/",
     image_url: "/blog/images/头像.jpg",
   },
   wolf: {
