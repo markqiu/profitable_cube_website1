@@ -15,10 +15,10 @@ export const footer: FooterCategory[] = [
     items: [
       {
         label: "帮助中心",
-        href: "docs",
+        href: "https://guide.jinniuai.com",
       },
       {
-        label: "blog",
+        label: "博客",
         href: "/blog",
       },
       // {

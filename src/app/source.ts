@@ -35,7 +35,7 @@ export const blog = fromMap(map, {
 export const docs = fromMap(map, {
   rootDir: "docs",
   slugs,
-  baseUrl: "/docs",
+  baseUrl: "https://guide.jinniuai.com",
 });
 
 // Access and export MDX pages data to json file
