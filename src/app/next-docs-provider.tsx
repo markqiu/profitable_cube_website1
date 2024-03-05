@@ -43,7 +43,7 @@ export function NextDocsProvider({ children }: { children: ReactNode }) {
           ]}
           items={[
             {
-              href: "https://guide.jinniuai.com",
+              href: "/docs",
               children: "帮助中心",
             },
             {
