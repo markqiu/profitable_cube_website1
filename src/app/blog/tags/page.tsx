@@ -18,7 +18,7 @@ export default function AllTags() {
   return (
     <main className="my-16 flex w-full flex-col gap-3">
       <div className="mb-3 flex flex-col gap-3">
-        <h1 className="mb-4 text-center text-5xl font-bold">所有標籤</h1>
+        <h1 className="mb-4 text-center text-5xl font-bold">所有标签</h1>
         <LinkButton
           href="/blog"
           wrapper={{ className: "mx-auto" }}
