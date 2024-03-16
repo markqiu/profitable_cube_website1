@@ -87,7 +87,7 @@ export const footer: FooterCategory[] = [
  * a list of blog file names
  */
 export const blogRecommendations = [
-  "release-v-1-8-1",
+  "release-v-1-8-1","A_real_investment_tool","Unveiling_the_market",
 ];
 
 export const blogAuthors: Record<string, AuthorData> = {
