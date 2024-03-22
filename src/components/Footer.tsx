@@ -47,6 +47,9 @@ function Info() {
       <p className="mt-2 text-xs text-muted-foreground">
         盈利模方 © 2024 ~ {new Date(Date.now()).getFullYear()}
       </p>
+      <p className="mt-2 text-xs text-muted-foreground">
+        京ICP备2021032851号-3
+      </p>
     </div>
   );
 }
