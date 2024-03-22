@@ -16,7 +16,10 @@ export const metadata: Metadata = {
 export default function BlogIndex() {
   const pages = blog.pages
     .sort((a, b) => b.matter.date.getTime() - a.matter.date.getTime())
-    .filter((item) => item.data.frontmatter.hidden !== true);
+    .filter((item) => {
+      const matter = item.data.frontmatter as Record<string,any>
+      return matter.hidden !== true;
+    });
 
   const recommendations = blogRecommendations.flatMap((name) => {
     return pages.find((page) => page.slugs[0] === name) ?? [];
